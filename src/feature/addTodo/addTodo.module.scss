@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  gap: 15px;
+}
+
+.bthsContainer {
+  display: flex;
+  align-self: flex-end;
+  gap: 10px;
+}
