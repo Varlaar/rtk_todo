@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+  max-width: 500px;
+  border: 1px solid $black;
+  border-radius: 5px;
+  padding: 20px;
+  word-wrap: break-word;
+  text-align: start;
+}
+
+.title,
+.description {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  line-height: 24px;
+}
+
+.bthsContainer {
+  display: flex;
+  gap: 10px;
+  align-self: flex-end;
+}

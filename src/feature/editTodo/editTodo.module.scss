@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  width: 100%;
+  max-width: 500px;
+}
+
+.todoStatus {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.editTodoStatus {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+
+.titleLabel,
+.descriptionLabel {
+  font-weight: 700;
+}
+
+.bthsContainer {
+  display: flex;
+  align-self: flex-end;
+  gap: 15px;
+}

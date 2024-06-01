@@ -1,0 +1,24 @@
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  border: 1px solid $black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.todoContent {
+  display: flex;
+  gap: 10px;
+}
+
+.titleDone {
+  text-decoration: line-through;
+  text-decoration-color: $error;
+}
+
+.bthsContainer {
+  display: flex;
+  gap: 10px;
+}
